@@ -1,5 +1,27 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
 
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="navbar-header">
+    <a class="brand navbar-brand">TYPER</a>
+  </div>
+  <ul class="nav navbar-nav navbar-right">
+    <li><a>Chat</a></li>
+  </ul>
+</nav>
+
+<h1 align="center">TYPER</h1>
+
+<div class="container-fluid">
+    <div class="row">
+      <h1 for="player1">Player 1</h1>
+      <div id="player1" class="player col-lg-6">
+      </div>
+      <h1 for="player2">Player 2</h1>
+      <div id="player2" class="player col-lg-6">
+      </div>
+    </div>
+</div>
+<!--
+<iframe src="https://open.spotify.com/embed?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A2PXdUld4Ueio2pHcB6sM8j&theme=white" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+-->
 {{outlet}}
